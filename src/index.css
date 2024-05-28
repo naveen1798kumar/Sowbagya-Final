@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 
 html {
   scroll-behavior: smooth;

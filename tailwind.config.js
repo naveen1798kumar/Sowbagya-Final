@@ -19,6 +19,9 @@ export default {
           xl: "5rem",
           "2xl": "6rem",
         },
+        fontFamily: {
+          sans: ['Roboto', 'sans-serif'], // Adding Roboto as the custom font
+        },
       },
     },
   },
