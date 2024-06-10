@@ -24,10 +24,11 @@ const productData = [
 
 const Hero = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 6,
+    arrow: false,
     slidesToScroll: 1,
     responsive: [
       {
@@ -60,7 +61,7 @@ const Hero = () => {
             {productData.map((product, index) => (
               <div key={index} className="mx-4 rounded overflow-hidden ">
                  <Link to={product.route}>
-                  <div className="relative h-32 w-32 mx-auto mt-6 rounded-full overflow-hidden border-4 border-blue-500 transition duration-300 hover:border-gray-400">
+                  <div className="relative h-24 w-24 md:h-32 md:w-32 mx-auto mt-6 rounded-full overflow-hidden border-4 border-blue-500 transition duration-300 hover:border-gray-400">
                     <img
                       className="absolute top-0 left-0 w-full h-full object-cover transition duration-300 transform hover:scale-105 cursor-pointer"
                       src={product.src}

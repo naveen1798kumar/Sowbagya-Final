@@ -85,7 +85,7 @@ const Navbar = ({ handleOrderPopup }) => {
                 </li>
                 <li className="py-4 text-lg font-bold">
                   <NavLink to="/products-section" activeClassName="active">
-                   Products
+                   Appliances
                   </NavLink>
                 </li>
                 <li className="py-4 text-lg font-bold">
@@ -140,7 +140,7 @@ const Navbar = ({ handleOrderPopup }) => {
                 //   handleOrderPopup();
                 // }}
               >
-              <a href="mailto:">Contact Us</a>
+              <a href="mailto:sobagya32@gmail.com">Contact Us</a>
 
               </button>
               {/* Mobile Hamburger icon */}

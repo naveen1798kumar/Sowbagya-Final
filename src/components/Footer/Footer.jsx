@@ -65,10 +65,15 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-3 mt-3">
             <FaMobileAlt />
+            <p>+91 91508272600</p>
+          </div>
+          <div className="flex items-center gap-3 mt-3">
+            <FaMobileAlt />
             <p>+91 9894107423</p>
           </div>
-          <div className="flex items-center gap-3 mt-6">
-            <a href="#">
+
+          <div className="flex justify-center items-center gap-3 mt-6">
+            <a href="https://www.instagram.com/sowbagya_furnitures_palani?igsh=MTM3cmh1dGE4YXozeQ==" target="blank">
               <FaInstagram className="text-3xl" />
             </a>
             <a href="#">
